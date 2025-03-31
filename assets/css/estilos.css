@@ -32,8 +32,43 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
+}
 
+#mis-estudios {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#mis-estudios h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.estudio {
+  background: #ffffff;
+  padding: 15px;
+  border-left: 5px solid #007bff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.estudio h3 {
+  margin: 0;
+  color: #007bff;
+  font-size: 20px;
+}
+
+.estudio p,
+.estudio ul {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #555;
 }
